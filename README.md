@@ -15,6 +15,10 @@ Inside the script, you will find a variable called `INPUT_STRING`. This string w
 
 You can run the CTF by executing the command `luau ctf.luau`. Luau has to be installed for that.
 
+## 💪 Difficulty
+
+This CTF does not contain any "obfuscated" code, but it contains a virtual-machine which interprets bytecode and acts in a special way. It may be harder to reverse or keep track of, but should definitely be manageable to solve.
+
 ## 🚩 Flag (bytes)
 
 ```js
