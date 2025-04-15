@@ -11,6 +11,10 @@ LuaAssembly is a new way of integrating security-critical code into your Lua env
 
 Inside the script, you will find a variable called `INPUT_STRING`. This string will be encrypted by the runtime module and then printed out in a string and bytes form. Your goal is to reverse the encryption algorithm and decrypt the encrypted flag.
 
+## 🏎️ Running the CTF
+
+You can run the CTF by executing the command `luau ctf.luau`. Luau has to be installed for that.
+
 ## 🚩 Flag (bytes)
 
 ```js
