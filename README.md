@@ -9,7 +9,7 @@ LuaAssembly is a new way of integrating security-critical code into your Lua env
 
 ## 🚀 CTF
 
-Inside the script, you will find a variable called `INPUT_STRING`. This string will be encrypted by the runtime module and then printed out in a string and bytes form. Your goal is to reverse the encryption algorithm and decrypt the encrypted flag.
+Inside the script, you will find a variable called `INPUT_STRING`. This string will be encrypted by the runtime module and then printed out in a string and bytes form. Your goal is to reverse the encryption algorithm and decrypt the encrypted flag, which was also encrypted using the same script.
 
 ## 🏎️ Running the CTF
 
@@ -19,7 +19,7 @@ You can run the CTF by executing the command `luau ctf.luau`. Luau has to be ins
 
 This CTF does not contain any "obfuscated" code, but it contains a virtual-machine which interprets bytecode and acts in a special way. It may be harder to reverse or keep track of, but should definitely be manageable to solve.
 
-## 🚩 Flag (bytes)
+## 🚩 Encrypted Flag (bytes)
 
 ```js
 [
@@ -37,7 +37,7 @@ This CTF does not contain any "obfuscated" code, but it contains a virtual-machi
 ];
 ```
 
-The flag is in the following format: `{ HEX }`.
+The unencrypted flag has the following format: `{ HEX }`.
 
 ## 📰 Notice
 
